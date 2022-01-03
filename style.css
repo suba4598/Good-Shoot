@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+body {
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position:center ;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+  }
+  .glass-box
+  {
+    width: 940px;
+    height: 1000px;
+    background:radial-gradient(Gray,0.6);
+    box-shadow: 0 0 30px white;
+    border-radius: 20px;
+    backdrop-filter:blur(10px);
+  }
+  i{
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.2 ease;
+  }
+  i:hover
+  {
+    color:lightcoral;
+  }
+  nav{
+    width: 60%;
+    background-color: turquoise;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+  }
+  nav ul li
+  {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px  ;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+
+  }
+  nav ul li a:hover
+  {
+color: lightcoral;
+  }
+  .searchbox input{
+    float: right;
+    margin: -53px 40px;
+    width: 27%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom:1px solid turquoise ;
+    letter-spacing: 1px;
+    font-size: 16px;
+    
+  }
+  .searchbox::placeholder,.searchbox input{
+    color: lightcoral;
+    font-size: 16px;
+    padding-bottom: 3px;
+  }
+  .searchbox input:hover{
+    color: turquoise;
+  }
+  .icon{
+    float: right;
+    margin: -50px 40px;
+  }
+  .icon i{
+    font-size: 20px;
+    color:turquoise ;
+    transition: 0.2s ease;
+  }
+  .icon i:hover
+  {
+    color:lightcoral  ;
+  }
+  .Social-media
+  {
+    float: right;
+    width: 80px;
+    height: 240px;
+    background-color: darkturquoise;
+    margin-top: 226px;
+    border-bottom-right-radius:20px ;
+    border-top-left-radius:20px ;
+   }
+   .icon1 i{
+     margin: 6px 30px;
+   }
+  .CN{
+    text-align:center;
+    color:whitesmoke;
+    text-shadow:0em 0em 3.5em cornflowerblue;
+    box-sizing: border-box;
+    margin: 0;
+    
+    font-family: 'Fugaz One', cursive;
+  display: grid;
+  place-content: center;
+
+  }
+  .CN:hover{
+    color: tomato;
+  }
+  .Form-container{
+    width: 500px;
+    height: 500px;
+    box-shadow:0 20px 30px white ;
+    margin-top:100px;
+    align-items: flex-start;
+    
+    }
+   .Form-container input {
+       border-radius:1%;
+       background: transparent;
+       outline: none;
+       border:none;
+       color:white;
+      border-bottom: 2px solid white;
+    
+
+    }
+  
+
